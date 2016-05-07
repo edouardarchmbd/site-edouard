@@ -1322,11 +1322,9 @@ ul.list.list-sided .stamp {
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
-    margin: 0 0 36px 0;
 }
 .portfolio .item .overlay .link .title:after {
     display: block;
-    content: "";
     position: absolute;
     top: 26px;
     left: 50%;
