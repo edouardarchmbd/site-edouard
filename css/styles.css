@@ -1336,8 +1336,7 @@ ul.list.list-sided .stamp {
 .portfolio .item .overlay .link .category {
     display: block;
     width: 100%;
-    font-size: 18px;
-    text-transform: lowercase;
+    text-transform: uppercase;
     text-align: center;
 }
 
@@ -1826,10 +1825,35 @@ footer .top:visited {
     color: #34A39F;
 }
 
-
 hr {
     margin-bottom: 60px;
     border: 0;
     border-top: 1px solid #C1C1C1;
     width: 40%;
+}
+
+.btnalone {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.btn {
+  border : 0px solid transparent;
+}
+
+.btn-default {
+  padding-bottom: 0px;
+  text-align: center;
+  background-color: #34A39F;
+  padding: 15px 20px;
+  border-radius: 0px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 300;
+  transition: background-color 0.3s ease;
+}
+
+.btn-default:hover {
+  color: white;
+  background-color: #2A324B;
 }
