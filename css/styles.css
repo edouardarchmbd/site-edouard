@@ -47,10 +47,7 @@ body.popup-open {
 .full-max {
     max-width: 100%;
 }
-.padding,
-.padding-top {
-    padding-top: 100px !important;
-}
+
 .padding,
 .padding-bottom {
     padding-bottom: 60px !important;
@@ -1341,7 +1338,6 @@ ul.list.list-sided .stamp {
 .portfolio .item .overlay .link .category {
     display: block;
     width: 100%;
-    font-family: 'Meie Script';
     font-size: 18px;
     text-transform: lowercase;
     text-align: center;
