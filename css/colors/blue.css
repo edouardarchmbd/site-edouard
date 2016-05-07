@@ -1,0 +1,242 @@
+/* Define the base color */
+/* Common styles & typography */
+a,
+a:hover,
+a:visited,
+a:active,
+a:focus {
+  color: #34A39F;
+}
+.section-heading:before,
+.section-heading:after,
+.section-heading .tl,
+.section-heading .tr,
+.section-heading .br,
+.section-heading .bl {
+  border-color: #34A39F;
+}
+.sub-heading:after {
+  background-color: #34A39F;
+}
+.button,
+.button:hover,
+.button:visited,
+.button:focus,
+.button:active {
+  border-color: #34A39F;
+  color: #34A39F;
+}
+.button.button-icon-clear:active,
+.button.button-icon-clear.active,
+.active > .button.button-icon-clear {
+  color: #34A39F !important;
+}
+.button:active,
+.button.active,
+.active > .button {
+  background-color: #34A39F;
+}
+.button:not(.button-icon-clear):hover,
+input:focus,
+textarea:focus {
+  -webkit-box-shadow: inset #34A39F 0 0 0 2px;
+  -moz-box-shadow: inset #34A39F 0 0 0 2px;
+  -ms-box-shadow: inset #34A39F 0 0 0 2px;
+  -o-box-shadow: inset #34A39F 0 0 0 2px;
+  box-shadow: inset #34A39F 0 0 0 2px;
+}
+.button-inverted:active {
+  color: #34A39F !important;
+}
+.button-big .icon {
+  border-right-color: #34A39F;
+}
+blockquote {
+  color: #34A39F;
+}
+pre,
+code,
+kbd {
+  background-color: #34A39F;
+}
+input,
+textarea {
+  border-color: #34A39F;
+}
+.colored,
+.colored:hover,
+.colored:visited,
+.colored:focus,
+.colored:active {
+  color: #34A39F !important;
+}
+.coloredbg {
+  background: #34A39F !important;
+}
+/* Navigation */
+.navbar li.active > a > span {
+  border-color: #34A39F;
+}
+.navbar-brand,
+.navbar-brand:hover,
+.navbar-brand:focus,
+.navbar-brand:visited,
+.navbar-brand:active {
+  border-top-color: #34A39F;
+}
+.nav-wrapper-brand,
+.nav-close,
+.nav-close:hover,
+.nav-close:visited,
+.nav-close:active,
+.nav-close:focus {
+  color: #34A39F;
+}
+.nav li:not(.active) > a > span .tl:before,
+.nav li:not(.active) > a > span .tl:after,
+.nav li:not(.active) > a > span .br:before,
+.nav li:not(.active) > a > span .br:after {
+  background-color: #34A39F;
+}
+.nav > li > ul,
+.nav ul ul {
+  border-color: #34A39F;
+}
+.nav ul li > a > span:before {
+  background-color: #34A39F;
+}
+nav li.node:before {
+  border-left-color: #34A39F;
+}
+/* Hero */
+.cover .one,
+.cover .two {
+  border-color: #34A39F;
+}
+.hero-heading:before,
+.hero-heading:after,
+.hero-heading .tl,
+.hero-heading .tr,
+.hero-heading .br,
+.hero-heading .bl {
+  border-color: #34A39F;
+}
+.hero-amp {
+  color: #34A39F;
+}
+.hero-amp:before,
+.hero-amp:after {
+  background-color: #34A39F;
+}
+/* Lists */
+.list li .bullet {
+  border-color: #34A39F;
+}
+/* Comments */
+.datetime {
+  background-color: #34A39F;
+}
+.datetime:before {
+  border-right-color: #34A39F;
+}
+/* Skill bars */
+.skill-bar .bar {
+  border-color: #34A39F;
+}
+.skill-bar .bar:before,
+.skill-bar .bar:after,
+.skill-bar .fill,
+.skill-bar .fill:before,
+.skill-bar .fill:after,
+.skill-bar .value {
+  background-color: #34A39F;
+}
+.skill-bar .value:after {
+  border-top-color: #34A39F;
+}
+/* Footer label */
+.footer-label {
+  color: #34A39F;
+}
+/* History list */
+.history,
+.history .icon {
+  border-color: #34A39F;
+}
+.history .icon .fa {
+  color: #34A39F;
+}
+/* Portfolio styles */
+.portfolio .item .overlay {
+  background-color: transparent;
+}
+.portfolio .item:hover .overlay {
+  background-color: rgba(40, 110, 128, 0.5);
+}
+.portfolio .item .overlay .tile {
+  background-color: #34A39F;
+}
+/* Blog post styles */
+.blog-post .info,
+.blog-post-small .info,
+.blog-post-big .info {
+  background-color: #34A39F;
+}
+.blog-post .info .arrow,
+.blog-post-small .info .arrow,
+.blog-post-big .info .arrow {
+  border-top-color: #34A39F;
+}
+@media screen and (min-width: 992px) {
+  .blog-post.on-the-left .info .arrow {
+    border-left-color: #34A39F;
+  }
+  .blog-post.on-the-right .info .arrow {
+    border-right-color: #34A39F;
+  }
+}
+/* Expandable section */
+.expandable:before {
+  border-top-color: #34A39F;
+}
+/* Diamond */
+.diamond .background {
+  background-color: #34A39F;
+}
+/* Author */
+.author {
+  background-color: #34A39F;
+}
+/* Iconed */
+.iconed .iconed-icon {
+  color: #34A39F;
+}
+/* Flickr widget */
+.flickr-widget-item a .hover {
+  background-color: #34A39F;
+}
+/* Testimonials */
+.testimonials-box {
+  background-color: #34A39F;
+}
+.testimonials-arrow-left {
+  border-top-color: #34A39F;
+  border-right-color: #34A39F;
+}
+.testimonials-arrow-right {
+  border-top-color: #34A39F;
+  border-left-color: #34A39F;
+}
+/* Pricing Tables */
+.price-plan .price-plan-price {
+  background-color: #34A39F;
+}
+.price-plan .price-plan-price::after {
+  border-top-color: #34A39F;
+}
+.price-plan .price-plan-features {
+  border-left-color: #34A39F;
+}
+.price-plan .price-plan-features li {
+  color: #34A39F;
+}

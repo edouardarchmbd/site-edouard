@@ -1,0 +1,147 @@
+@import "lesshat.less";
+
+/* Common styles & typography */
+.button:not(:active),
+.button-big:not(:active) .icon,
+input,
+textarea {
+  .transition-duration(0.2s);
+}
+.button-inverted:hover {
+  .box-shadow(~"inset #fff 0 0 0 2px !important");
+}
+
+/* Navigation */
+.navbar,
+.nav > li > a > span {
+  .transition-timing-function(~"cubic-bezier(0.13, 0.71, 0.30, 0.94)");
+  .transition-duration(0.25s);
+}
+.navbar {
+  .box-shadow(~"rgba(0, 0, 0, 0.35) 0 0 5px");
+}
+.navbar-collapse {
+  .box-shadow(~"none");
+}
+.nav ul,
+.nav li > a > span .tl:before,
+.nav li > a > span .tl:after,
+.nav li > a > span .br:before,
+.nav li > a > span .br:after,
+.nav li > a > span:before {
+  .transition-timing-function(~"cubic-bezier(0.13, 0.71, 0.30, 0.94)");
+  .transition-duration(0.25s);
+}
+
+/* Hero */
+.cover .one,
+.cover .two {
+  .rotate(-45deg);
+}
+
+/* Lists */
+.list li .bullet {
+  .transform-origin(0 100%);
+  .rotate(45deg);
+}
+
+/* Skill bars */
+.skill-bar .fill {
+  .transition-timing-function(~"cubic-bezier(0.13, 0.71, 0.30, 0.94)");
+  .transition-duration(3s);
+}
+.skill-bar-bullets .fill {
+  .opacity(0);
+}
+
+/* History */
+.history .icon {
+  .box-shadow(~"#fff 0 0 0 5px");
+}
+body.dark .history .icon {
+  .box-shadow(~"#272727 0 0 0 5px");
+}
+
+/* Portfolio styles */
+.portfolio .item .image,
+.portfolio .item .overlay,
+.portfolio .item .overlay .tile,
+.portfolio .item .overlay .link,
+.portfolio .item .overlay .link .category {
+  .transition-timing-function(~"cubic-bezier(0.13, 0.71, 0.30, 0.94)");
+  .transition-duration(0.35s);
+}
+.portfolio .item:hover .image,
+.portfolio .item:hover .overlay {
+  .transition-duration(2s);
+}
+.portfolio .item:hover .overlay .tile,
+.portfolio .item:hover .overlay .link,
+.portfolio .item:hover .overlay .link .category {
+  .transition-duration(0.75s);
+}
+.portfolio .item:hover .image {
+  .transform(~"scale(1.2) rotate(3deg)");
+}
+.portfolio .item .overlay .tile {
+  .opacity(0);
+  .scale(0.8);
+}
+.portfolio .item:hover .overlay .tile {
+  .opacity(1);
+  .scale(1);
+}
+.portfolio .item .overlay .link {
+  .perspective(500px);
+  .opacity(0);
+}
+.portfolio .item:hover .overlay .link {
+  .opacity(1);
+}
+.portfolio .item .overlay .link .category {
+  .translateY(35px);
+}
+.portfolio .item:hover .overlay .link .category {
+  .translateY(0);
+}
+.keyframes(~'title, 0%{transform:rotateY(90deg);} 1%{transform:rotateY(82.14deg);} 2%{transform:rotateY(71.58deg);} 3%{transform:rotateY(59.14deg);} 4%{transform:rotateY(45.64deg);} 5%{transform:rotateY(31.82deg);} 6%{transform:rotateY(18.35deg);} 7%{transform:rotateY(5.79deg);} 8%{transform:rotateY(-5.4deg);} 9%{transform:rotateY(-14.9deg);} 10%{transform:rotateY(-22.5deg);} 11%{transform:rotateY(-28.09deg);} 12%{transform:rotateY(-31.69deg);} 13%{transform:rotateY(-33.39deg);} 14%{transform:rotateY(-33.36deg);} 15%{transform:rotateY(-31.82deg);} 16%{transform:rotateY(-29.04deg);} 17%{transform:rotateY(-25.31deg);} 18%{transform:rotateY(-20.91deg);} 19%{transform:rotateY(-16.14deg);} 20%{transform:rotateY(-11.25deg);} 21%{transform:rotateY(-6.49deg);} 22%{transform:rotateY(-2.05deg);} 23%{transform:rotateY(1.91deg);} 24%{transform:rotateY(5.27deg);} 25%{transform:rotateY(7.95deg);} 26%{transform:rotateY(9.93deg);} 27%{transform:rotateY(11.21deg);} 28%{transform:rotateY(11.81deg);} 29%{transform:rotateY(11.79deg);} 30%{transform:rotateY(11.25deg);} 31%{transform:rotateY(10.27deg);} 32%{transform:rotateY(8.95deg);} 33%{transform:rotateY(7.39deg);} 34%{transform:rotateY(5.7deg);} 35%{transform:rotateY(3.98deg);} 36%{transform:rotateY(2.29deg);} 37%{transform:rotateY(0.72deg);} 38%{transform:rotateY(-0.68deg);} 39%{transform:rotateY(-1.86deg);} 40%{transform:rotateY(-2.81deg);} 41%{transform:rotateY(-3.51deg);} 42%{transform:rotateY(-3.96deg);} 43%{transform:rotateY(-4.17deg);} 44%{transform:rotateY(-4.17deg);} 45%{transform:rotateY(-3.98deg);} 46%{transform:rotateY(-3.63deg);} 47%{transform:rotateY(-3.16deg);} 48%{transform:rotateY(-2.61deg);} 49%{transform:rotateY(-2.02deg);} 50%{transform:rotateY(-1.41deg);} 51%{transform:rotateY(-0.81deg);} 52%{transform:rotateY(-0.26deg);} 53%{transform:rotateY(0.24deg);} 54%{transform:rotateY(0.66deg);} 55%{transform:rotateY(0.99deg);} 56%{transform:rotateY(1.24deg);} 57%{transform:rotateY(1.4deg);} 58%{transform:rotateY(1.48deg);} 59%{transform:rotateY(1.47deg);} 60%{transform:rotateY(1.41deg);} 61%{transform:rotateY(1.28deg);} 62%{transform:rotateY(1.12deg);} 63%{transform:rotateY(0.92deg);} 64%{transform:rotateY(0.71deg);} 65%{transform:rotateY(0.5deg);} 66%{transform:rotateY(0.29deg);} 67%{transform:rotateY(0.09deg);} 68%{transform:rotateY(-0.08deg);} 69%{transform:rotateY(-0.23deg);} 70%{transform:rotateY(-0.35deg);} 71%{transform:rotateY(-0.44deg);} 72%{transform:rotateY(-0.5deg);} 73%{transform:rotateY(-0.52deg);} 74%{transform:rotateY(-0.52deg);} 75%{transform:rotateY(-0.5deg);} 76%{transform:rotateY(-0.45deg);} 77%{transform:rotateY(-0.4deg);} 78%{transform:rotateY(-0.33deg);} 79%{transform:rotateY(-0.25deg);} 80%{transform:rotateY(-0.18deg);} 81%{transform:rotateY(-0.1deg);} 82%{transform:rotateY(-0.03deg);} 83%{transform:rotateY(0.03deg);} 84%{transform:rotateY(0.08deg);} 85%{transform:rotateY(0.12deg);} 86%{transform:rotateY(0.16deg);} 87%{transform:rotateY(0.18deg);} 88%{transform:rotateY(0.18deg);} 89%{transform:rotateY(0.18deg);} 90%{transform:rotateY(0.18deg);} 91%{transform:rotateY(0.16deg);} 92%{transform:rotateY(0.14deg);} 93%{transform:rotateY(0.12deg);} 94%{transform:rotateY(0.09deg);} 95%{transform:rotateY(0.06deg);} 96%{transform:rotateY(0.04deg);} 97%{transform:rotateY(0.01deg);} 98%{transform:rotateY(-0.01deg);} 99%{transform:rotateY(-0.03deg);} 100%{transform:rotateY(0deg);}');
+.portfolio .item:hover .overlay .link .title {
+  .animation(~"title 3s forwards linear");
+}
+
+/* Diamond */
+.diamond .background {
+  .rotate(45deg);
+}
+.diamond .line1,
+.diamond .line2 {
+  .transition-duration(0.5s);
+}
+.expandable.open .diamond .line1 {
+  .rotate(180deg);
+}
+.expandable.open .diamond .line2 {
+  .rotate(90deg);
+}
+
+/* Iconed */
+.iconed .iconed-icon {
+  .opacity(0.05);
+}
+
+/* Roller */
+.roller-list,
+.roller-list > *:first-child {
+  .transition-timing-function(~"cubic-bezier(0.13, 0.71, 0.30, 0.94)");
+  .transition-duration(0.5s);
+}
+
+/* Flickr widget */
+.flickr-widget-item a .hover {
+  .opacity(0);
+  .transition-timing-function(~"cubic-bezier(0.13, 0.71, 0.30, 0.94)");
+  .transition-duration(0.5s);
+}
+.flickr-widget-item a:hover .hover {
+  .opacity(1);
+}

@@ -1,0 +1,17 @@
+@import "lesshat.less";
+
+/* Navigation */
+.nav ul {
+  .scale(0);
+}
+.nav li:hover > ul {
+  .scale(1);
+}
+.nav > li > ul,
+.nav ul ul {
+  .box-shadow(~"rgba(0, 0, 0, 0.35) 0 2px 5px");
+  .transform-origin(50% 0);
+}
+.nav ul ul {
+  .transform-origin(0 0);
+}

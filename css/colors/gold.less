@@ -1,0 +1,259 @@
+@import "../lesshat.less";
+
+/* Define the base color */
+@color: #c2973c;
+
+/* Common styles & typography */
+a,
+a:hover,
+a:visited,
+a:active,
+a:focus {
+  color: @color;
+}
+.section-heading:before,
+.section-heading:after,
+.section-heading .tl,
+.section-heading .tr,
+.section-heading .br,
+.section-heading .bl {
+  border-color: @color;
+}
+.sub-heading:after {
+  background-color: @color;
+}
+.button,
+.button:hover,
+.button:visited,
+.button:focus,
+.button:active {
+  border-color: @color;
+  color: @color;
+}
+.button.button-icon-clear:active,
+.button.button-icon-clear.active,
+.active > .button.button-icon-clear {
+  color: @color !important;
+}
+.button:active,
+.button.active,
+.active > .button {
+  background-color: @color;
+}
+.button:not(.button-icon-clear):hover,
+input:focus,
+textarea:focus {
+  -webkit-box-shadow: inset @color 0 0 0 2px;
+     -moz-box-shadow: inset @color 0 0 0 2px;
+      -ms-box-shadow: inset @color 0 0 0 2px;
+       -o-box-shadow: inset @color 0 0 0 2px;
+          box-shadow: inset @color 0 0 0 2px;
+}
+.button-inverted:active {
+  color: @color !important;
+}
+.button-big .icon {
+  border-right-color: @color;
+}
+blockquote {
+  color: @color;
+}
+pre, code, kbd {
+  background-color: @color;
+}
+input, textarea {
+  border-color: @color;
+}
+.colored,
+.colored:hover,
+.colored:visited,
+.colored:focus,
+.colored:active {
+  color: @color !important;
+}
+.coloredbg {
+  background: @color !important;
+}
+
+/* Navigation */
+.navbar li.active > a > span {
+  border-color: @color;
+}
+.navbar-brand,
+.navbar-brand:hover,
+.navbar-brand:focus,
+.navbar-brand:visited,
+.navbar-brand:active {
+  border-top-color: @color;
+}
+.nav-wrapper-brand,
+.nav-close,
+.nav-close:hover,
+.nav-close:visited,
+.nav-close:active,
+.nav-close:focus {
+  color: @color;
+}
+.nav li:not(.active) > a > span .tl:before,
+.nav li:not(.active) > a > span .tl:after,
+.nav li:not(.active) > a > span .br:before,
+.nav li:not(.active) > a > span .br:after {
+  background-color: @color;
+}
+.nav > li > ul,
+.nav ul ul {
+  border-color: @color;
+}
+.nav ul li > a > span:before {
+  background-color: @color;
+}
+nav li.node:before {
+  border-left-color: @color;
+}
+
+/* Hero */
+.cover .one,
+.cover .two {
+  border-color: @color;
+}
+.hero-heading:before,
+.hero-heading:after,
+.hero-heading .tl,
+.hero-heading .tr,
+.hero-heading .br,
+.hero-heading .bl {
+  border-color: @color;
+}
+.hero-amp {
+  color: @color;
+}
+.hero-amp:before,
+.hero-amp:after {
+  background-color: @color;
+}
+
+/* Lists */
+.list li .bullet {
+  border-color: @color;
+}
+
+/* Comments */
+.datetime {
+  background-color: @color;
+}
+.datetime:before {
+  border-right-color: @color;
+}
+
+/* Skill bars */
+.skill-bar .bar {
+  border-color: @color;
+}
+.skill-bar .bar:before,
+.skill-bar .bar:after,
+.skill-bar .fill,
+.skill-bar .fill:before,
+.skill-bar .fill:after,
+.skill-bar .value {
+  background-color: @color;
+}
+.skill-bar .value:after {
+  border-top-color: @color;
+}
+
+/* Footer label */
+.footer-label {
+  color: @color;
+}
+
+/* History list */
+.history,
+.history .icon {
+  border-color: @color;
+}
+.history .icon .fa {
+  color: @color;
+}
+
+/* Portfolio styles */
+.portfolio .item .overlay {
+  background-color: transparent;
+}
+.portfolio .item:hover .overlay {
+  background-color: rgba(red(@color), green(@color), blue(@color), 0.5);
+}
+.portfolio .item .overlay .tile {
+  background-color: @color;
+}
+
+/* Blog post styles */
+.blog-post .info,
+.blog-post-small .info,
+.blog-post-big .info {
+  background-color: @color;
+}
+.blog-post .info .arrow,
+.blog-post-small .info .arrow,
+.blog-post-big .info .arrow {
+  border-top-color: @color;
+}
+@media screen and (min-width: 992px) {
+  .blog-post.on-the-left .info .arrow {
+    border-left-color: @color;
+  }
+  .blog-post.on-the-right .info .arrow {
+    border-right-color: @color;
+  }
+}
+
+/* Expandable section */
+.expandable:before {
+  border-top-color: @color;
+}
+
+/* Diamond */
+.diamond .background {
+  background-color: @color;
+}
+
+/* Author */
+.author {
+  background-color: @color;
+}
+
+/* Iconed */
+.iconed .iconed-icon {
+  color: @color;
+}
+
+/* Flickr widget */
+.flickr-widget-item a .hover {
+  background-color: @color;
+}
+
+/* Testimonials */
+.testimonials-box {
+  background-color: @color;
+}
+.testimonials-arrow-left {
+  border-top-color: @color;
+  border-right-color: @color;
+}
+.testimonials-arrow-right {
+  border-top-color: @color;
+  border-left-color: @color;
+}
+
+/* Pricing Tables */
+.price-plan .price-plan-price {
+  background-color: @color;
+}
+.price-plan .price-plan-price::after {
+  border-top-color: @color;
+}
+.price-plan .price-plan-features {
+  border-left-color: @color;
+}
+.price-plan .price-plan-features li {
+  color: @color;
+}
