@@ -1835,4 +1835,7 @@ hr {
 
 .modal-footer {
     padding: 19px 19px 0px;
+    margin-top: 0px;
+    text-align: right;
+    border-top: 0px solid #e5e5e5;
 }
