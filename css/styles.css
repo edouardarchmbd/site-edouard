@@ -245,6 +245,7 @@ p.small.condensed {
 }
 strong {
     color: #171717;
+    font-weight: 500;
 }
 .dark strong {
     color: #fff;
@@ -1832,28 +1833,6 @@ hr {
     width: 40%;
 }
 
-.btnalone {
-  font-size: 18px;
-  font-weight: 400;
-}
-
-.btn {
-  border : 0px solid transparent;
-}
-
-.btn-default {
-  padding-bottom: 0px;
-  text-align: center;
-  background-color: #34A39F;
-  padding: 15px 20px;
-  border-radius: 0px;
-  color: white;
-  text-transform: uppercase;
-  font-weight: 300;
-  transition: background-color 0.3s ease;
-}
-
-.btn-default:hover {
-  color: white;
-  background-color: #2A324B;
+.modal-footer {
+    padding: 19px 19px 0px;
 }
