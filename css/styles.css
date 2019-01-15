@@ -803,9 +803,7 @@ body.nav-fixed #hero {
 .hero-amp {
     position: relative;
     display: inline-block;
-    width: 36px;
     height: 22px;
-    font-family: 'Great Vibes';
     font-size: 22px;
     line-height: 24px;
     margin: 0 0 25px -2px;
@@ -816,8 +814,8 @@ body.nav-fixed #hero {
     content: "";
     width: 33px;
     height: 2px;
-    top: 9px;
-    left: -31px;
+    top: 13px;
+    left: -40px;
 }
 .hero-amp:after {
     display: block;
@@ -825,8 +823,8 @@ body.nav-fixed #hero {
     content: "";
     width: 33px;
     height: 2px;
-    top: 9px;
-    left: 38px;
+    top: 13px;
+    left: 190px;
 }
 .hero-handscript {
     font-family: 'Lato';
